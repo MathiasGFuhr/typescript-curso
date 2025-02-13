@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/js", // pasta de saída
+    "target": "ES6", // versão do javascript
+    "noEmitOnError": true, // não emitir arquivos caso ocorram erros
+    "noImplicitAny": true // não permitir que o tipo any seja inferido automaticamente
+  },
+  "include": [
+    "app/**/*" // incluir todos os arquivos da pasta app
+  ]
+}
